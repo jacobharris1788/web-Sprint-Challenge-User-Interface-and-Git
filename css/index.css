@@ -66,6 +66,40 @@ p {
     line-height: 1.4;
 }
 
+/* --Header Content-- */
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.navigation ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem; 
+}
+
+.navigation li {
+    margin: 3.2rem 2rem 2rem;
+    cursor: pointer;
+}
+
+.navigation img {
+    height: auto;
+    max-width: 100%;
+    position: relative;
+    width: auto;
+    align-self: center;
+}
+
+.hero {
+    margin-bottom: 1.6rem;
+}
+
+/* --Template content & index.html */
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -104,12 +138,52 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.boxes div:nth-child(1) {
+    background-color: teal;
+}
+
+.boxes div:nth-child(2) {
+    background-color: gold;
+}
+
+.boxes div:nth-child(3) {
+    background-color: cadetblue;
+}
+
+.boxes div:nth-child(4) {
+    background-color: coral;
+}
+
+.boxes div:nth-child(5) {
+    background-color: crimson;
+}
+
+.boxes div:nth-child(6) {
+    background-color: forestgreen;
+}
+
+.boxes div:nth-child(7) {
+    background-color: darkorchid;
+}
+
+.boxes div:nth-child(8) {
+    background-color: hotpink;
+}
+
+.boxes div:nth-child(9) {
+    background-color: indigo;
+}
+
+.boxes div:nth-child(10) {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +217,48 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* About Page */
+
+.abouttext {
+    padding: 0 1rem 1.5rem;
+    border-bottom: 1px dashed black;
+}
+
+.aboutboxcontainer {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+}
+
+.aboutbox {
+    width: 48%;
+    margin: .5rem;
+    border-bottom: 1px dashed black;
+}
+
+.aboutbox img {
+    margin: 1rem 0 .4rem .5rem;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+.aboutbox button {
+    margin: 1rem .5rem;
+    background:none;
+    border-radius: 5px;
+    padding: .5rem 1rem;
+}
+
+.aboutbox h3, .aboutbox p {
+    margin: .3rem 0 .3rem .5rem;
+    padding: .1rem 0;
+}
+
+.lowercontent {
+    padding: 1rem 1rem 1.5rem;
 }
